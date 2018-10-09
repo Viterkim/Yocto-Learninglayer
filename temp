@@ -1,0 +1,13 @@
+  /home/viter/cc/embedded/own-yocto/meta-openembedded/meta-networking \
+  /home/viter/cc/embedded/own-yocto/meta-openembedded/meta-python \
+
+DISTRO_FEATURES_append = " bluez5 bluetooth wifi"
+
+IMAGE_INSTALL_append = " bluez5 \
+  i2c-tools \
+  python-smbus \
+  bridge-utils \
+  hostapd \
+  dhcp-server \
+  iptables \
+  wpa-supplicant"

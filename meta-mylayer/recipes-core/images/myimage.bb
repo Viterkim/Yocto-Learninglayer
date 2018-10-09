@@ -3,7 +3,7 @@ inherit core-image
 DESCRIPTION = "Stock minimal image + xdelta, vim and tree"
 LICENSE = "MIT"
 
-IMAGE_FSTYPES += "tar wic.bmap wic.gz"
+IMAGE_FSTYPES += "tar wic.bmap wic.gz ext4"
 WKS_FILE = "${MACHINE}.wks.in"
 
 IMAGE_INSTALL += " \

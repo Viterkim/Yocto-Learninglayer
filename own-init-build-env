@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export TEMPLATECONF=$(pwd)/meta-mylayer/conf
+
+source poky/oe-init-build-env $@

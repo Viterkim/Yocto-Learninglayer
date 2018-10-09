@@ -1,2 +1,2 @@
 source ../setpath.sh
-source poky/oe-init-build-env
+source own-init-build-env
