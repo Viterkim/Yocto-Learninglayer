@@ -28,9 +28,10 @@ RM_OLD_IMAGE = "1"
 # demonstration purposes:
 #
 #MACHINE ?= "raspberrypi3-64"
+#MACHINE ?= "own-rpi3-64"
 #
 # This sets the default machine to be raspberrypi3-64 if no other machine is selected:
-MACHINE ??= "raspberrypi3-64"
+MACHINE ??= "own-rpi3-64"
 
 #
 # Where to place downloads

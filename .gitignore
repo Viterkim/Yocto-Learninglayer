@@ -1,2 +1,3 @@
 build/
 extractedrootfs
+meta-mylayer/recipes-connectivity/wpa-supplicant/wpa-supplicant/wpa_supplicant.conf-sane

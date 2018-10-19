@@ -3,9 +3,8 @@ ctrl_interface_group=0
 update_config=1
 network={
         ssid="CCaccess"
-        psk=dd718c4e51f8f3c8b9d5f674943728e6d21d963fc3be1789e9cc5581a72523364
+        psk="Sd46cvcfdvRDEF"
         proto=RSN
         key_mgmt=WPA-PSK
         pairwise=CCMP
-        auth_clg=OPEN
 }

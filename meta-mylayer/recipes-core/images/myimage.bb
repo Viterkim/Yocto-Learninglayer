@@ -13,6 +13,7 @@ IMAGE_INSTALL += " \
   nodejs \
   myrecipe \
   sl \
+  canutils \
   "
 
 # read-only-rootfs debug-tweaks

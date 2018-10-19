@@ -4,6 +4,9 @@
 start() {
 echo "Started start service"
 loadkmap < /etc/da.kmap
+ifup wlan0
+stty -F /dev/ttyS0 raw 9600 cs8 clocal -cstopb
+/sbin/ip link set can0 up type can bitrate 500000
 }
 
 stop() {
