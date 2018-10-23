@@ -14,11 +14,11 @@ IMAGE_INSTALL += " \
   myrecipe \
   sl \
   canutils \
+  gpsd \
   "
 
 # read-only-rootfs debug-tweaks
 IMAGE_FEATURES_append = " allow-empty-password"
-
 
 # Create folders on the image, before image files are generated
 IMAGE_FOLDERS = " \
